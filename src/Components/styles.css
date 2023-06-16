@@ -1,0 +1,61 @@
+.Home {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+.LogoCard:hover {
+  transform: scale(1.2);
+}
+
+.LogoCard:active {
+  transform: scale(0.95);
+}
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+}
+
+.Card {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  text-align: left;
+  gap: 1rem;
+  width: 500px;
+  height: auto;
+  margin: 10px;
+  border-radius: 20px;
+  border: 5px solid gray;
+  padding: 20px;
+}
+
+.CardElement {
+  display: flex;
+  flex-direction: column;
+}
+.CardImage {
+  min-width: 150px;
+  cursor: pointer;
+}
+.PriceDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: last baseline;
+  gap: 0.5rem;
+}
+.CardContent {
+  gap: 10px;
+}
+.DollerDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.Typography:hover {
+  color: red;
+}
